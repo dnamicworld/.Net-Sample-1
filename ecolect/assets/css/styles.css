@@ -1,0 +1,188 @@
+
+body {
+    padding-top: 70px;
+    background-color:white;
+    color:#000000;
+    font-family: 'Quicksand', sans-serif;
+    font-size:2em;
+    background: url('http://localhost:53369/assets/images/imagencorpo-ecolect-COVER.png') center top no-repeat 100%;
+}
+
+#mainBox {
+    background-color: none;    
+    border-radius: 10px;
+}
+
+
+
+#firstPage {
+    
+      
+}
+
+#info {
+    background-color: #f8f8f8;
+      
+      padding-top:100px;
+}
+
+    #info .itemRegistro div {
+    
+        padding: 20px 0px;
+    
+    }
+
+
+#register {
+    
+    
+    height: 700px;
+    padding-top:100px;
+}
+
+#createAnonymousAlert {
+    
+    background-color:orangered;
+      color: white;
+      padding: 1.5em;
+    height: 600px;
+}
+
+#divCrearAlertas {
+        background-color:orangered;
+        padding-bottom:10px;
+}
+
+#pendingAlerts {
+    margin-top: 10px;
+    
+      
+    height: 600px;
+}
+
+#primerPasoAlerta{
+  
+    height: 600px;
+}
+#segundoPasoAlerta{
+  
+    height: 600px;
+}
+
+#aboutText {
+    margin-top: 20px;
+    
+}
+
+#footerSec {
+    margin-top: 10px;
+    
+}
+
+
+
+#patrocinadores {
+    margin-top: 20px;
+    
+}
+
+#registerOptions {
+    padding-top: 130px;
+    padding-bottom:10px;
+}
+
+.imagenInstruction {
+    border-radius: 150px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+}
+
+imagenRegistro {
+
+   
+}
+
+#regsterButton {
+    margin-top: 20px;
+}
+
+#alertaForm {
+    width: 350px;
+}
+
+#map-canvas {
+      width: 600px;
+    height: 400px;
+    margin: 0px;
+    margin-top: 30px;
+    margin-left:10px;
+}
+
+#map-canvas-pending {
+    width: 700px;
+    height: 400px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.menuImage {
+    width: 34px;
+    height: 30px;
+}
+
+.textoExitoso {
+    
+}
+
+
+.mapPendingAlerts {
+      width: 900px;
+    height: 600px;
+}
+
+.crearMapa {
+       width: 900px;
+    height: 600px;
+
+}
+
+.navbar {
+
+    background-color:white;
+    height:56px;
+}
+.navbar-nav > li > a {
+
+    padding: 0;
+
+}
+
+.container {
+
+    background-color:none !important; 
+
+}
+
+h1, h2, h3, h4, h5 {
+
+    font-family: 'Quicksand', sans-serif;
+}
+
+h1 {
+
+    font-size:1.5em;
+
+}
+
+
+.dropdown {
+padding-top: 1em;
+margin: 0 1em;
+
+}
+
+.h1Opciones {
+height:15px;
+display: block;
+
+}

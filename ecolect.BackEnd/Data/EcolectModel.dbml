@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="ecolectDb" Class="EcolectModelDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=WIN-Q3NET6LBQ0E\SQLEXPRESS;Initial Catalog=ecolectDb;Integrated Security=True" SettingsObjectName="ecolect.BackEnd.Properties.Settings" SettingsPropertyName="ecolectDbConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Alerta" Member="Alertas">
+    <Type Name="Alerta">
+      <Column Name="idAlerta" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="email" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="comentarios" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="latitud" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="longitud" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="estado" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

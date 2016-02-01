@@ -1,0 +1,60 @@
+﻿@{
+    ViewBag.Title = "Admin";
+}
+
+<script src="~/Scripts/js/dataservices/alertas.dataservices.js"></script>
+<script src="~/Scripts/js/alertas/alertas.admin.js"></script>
+
+<div id="adminContainer" class="container">
+
+    <div class="hero-unit">
+        <p>
+            <h1>Admin</h1>
+            <h6 id="lblResult" style="display: none;">Error</h6>
+        </p>
+        <hr />
+        <div>
+            <table class="table table-hover " data-bind='visible: listaAlertas().length > 0'>
+                <thead>
+                    <tr>
+                        <th />
+                    </tr>
+                </thead>
+                <tbody data-bind="foreach: listaAlertas">
+                    <tr>
+                        <td>
+                            <input type="text" class="form-control" data-bind="value: email, style: { color: estado() == 0 ? 'red' : 'green' } " /></td>
+                        <td>
+                            <input type="text" class="form-control" data-bind="value: comentarios, style: { color: estado() == 0 ? 'red' : 'green' }" /></td>
+                        <td>
+                            <input type="text" class="form-control" data-bind="value: latitude, style: { color: estado() == 0 ? 'red' : 'green' } " /></td>
+                        <td>
+                            <input type="text" class="form-control" data-bind="value: longitud, style: { color: estado() == 0 ? 'red' : 'green' }" /></td>
+
+                        <td>
+                            <input type="button" class="btn btn-success" value="Aprovar/Denegar" data-bind="click: cambiarEstado" /></td>
+                        <td>
+                            <input type="button" class="btn btn-danger" value="Eliminar" data-bind="click: eliminarAlerta" /></td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+
+        <div class="clearfix"></div>
+
+        <section id="pendingAlerts" class="container" style="display: none;">
+            <div id="" class="row">
+                <div class="col-lg-1"></div>
+                <div id="map" class="col-lg-10 mapPendingAlerts"></div>
+
+                <div class="col-lg-1"></div>
+            </div>
+
+            <!-- End Anonymous Alert-->
+        </section>
+
+
+    </div>
+</div>
+

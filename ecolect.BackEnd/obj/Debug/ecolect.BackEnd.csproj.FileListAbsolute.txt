@@ -1,0 +1,5 @@
+C:\Users\dlemus\Documents\Visual Studio 2012\Projects\ecolect\ecolect.BackEnd\bin\Debug\ecolect.BackEnd.dll
+C:\Users\dlemus\Documents\Visual Studio 2012\Projects\ecolect\ecolect.BackEnd\bin\Debug\ecolect.BackEnd.pdb
+C:\Users\dlemus\Documents\Visual Studio 2012\Projects\ecolect\ecolect.BackEnd\obj\Debug\ecolect.BackEnd.dll
+C:\Users\dlemus\Documents\Visual Studio 2012\Projects\ecolect\ecolect.BackEnd\obj\Debug\ecolect.BackEnd.pdb
+C:\Users\dlemus\Documents\Visual Studio 2012\Projects\ecolect\ecolect.BackEnd\bin\Debug\ecolect.BackEnd.dll.config
